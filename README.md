@@ -1,9 +1,9 @@
 
 # JMemeBot4Discord
 
-### Simple and lightweight MemeBot for discord made completly in Java !
+### Simple and lightweight MemeBot for discord made completely in Java !
 ### How to Deploy
-Threre is no official windows and MacOS support !
+There is no official windows and MacOS support !
 
 ####
 - Download `JMemeBot4Discord.jar` into your final destination
@@ -20,7 +20,7 @@ Threre is no official windows and MacOS support !
 
 #### Enter gathered data into config file
 1. Create File named settings.txt in the same directory as `JMemeBot4Discord.jar`
-2. Open file and input data in this order wihtout any spaces tabs in form shown below (do NOT write <some comment> inside of file)
+2. Open file and input data in this order without any spaces tabs in form shown below (do NOT write <some comment> inside of file)
 
 ``` aSJdaskdjak48Jii9aklsdAi.gdfg4A43.d-dskoASK458GNUIA84ha <this is bot token>
 /home/user/memebot/memes                                <this is memepath use / dashes for folder separation>

@@ -18,10 +18,10 @@ public void loadSettings(){
     }
     catch (Exception e)
     {
-        System.out.println("create file settings.txt with token, meme, nsfw detaction thresshold and RAPID api (https://rapidapi.com/inferdo/api/nsfw-image-classification1/) key path in each line respectively example :");
+        System.out.println("create file settings.txt with token, meme, nsfw detection thresshold and RAPID api (https://rapidapi.com/inferdo/api/nsfw-image-classification1/) key path in each line respectively example :");
         System.out.println("ADAkaskas-dfsd.sdfajsdjaskdasdsjka <discord bot token");
         System.out.println("/home/xenu/memes <path to memes");
-        System.out.println("0.65 <thresshold");
+        System.out.println("0.65 <threshold");
         System.out.println("ad0asd912jjk101l23 <rapidapi key");
     }
 }

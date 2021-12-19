@@ -20,18 +20,18 @@ public class MemeController {
     public MemeController(String memeDirectory)
     {
         this.memeDirectory =memeDirectory;
-        loadListOfFilesToCashe();
+        loadListOfFilesToCache();
 
     }
 
     public String getRandomMeme(){
         if(memes==null){
-            loadListOfFilesToCashe();
+            loadListOfFilesToCache();
         }
-       return memes.get(pseudoRandomNonReapeatableNumber());
+       return memes.get(pseudoRandomNonRepeatableNumber());
 
     }
-    private int pseudoRandomNonReapeatableNumber(){
+    private int pseudoRandomNonRepeatableNumber(){
         int number;
         while (true){
             System.out.println(memes.size());
@@ -44,7 +44,7 @@ public class MemeController {
         }
 
     }
-    private void loadListOfFilesToCashe(){
+    private void loadListOfFilesToCache(){
         File directoryPath = new File(memeDirectory);
         //List of all files and directories
         System.out.println("loading to cache");
@@ -56,16 +56,11 @@ public class MemeController {
     }
 
     public void refreshCashe() {
-        loadListOfFilesToCashe();
+        loadListOfFilesToCache();
     }
     public void addMeme(String url) throws IOException {
-        //ReadableByteChannel readChannel = Channels.newChannel(new URL(url).openStream());
         UUID uuid=UUID.randomUUID();
-
         downloadFile(url,memeDirectory+"/"+ uuid + url.substring(url.lastIndexOf(".")));
-        //FileOutputStream fileOS = new FileOutputStream(memeDirectory+"/"+ uuid + url.substring(url.lastIndexOf(".")));
-        //FileChannel writeChannel = fileOS.getChannel();
-        //writeChannel.transferFrom(readChannel, 0, Long.MAX_VALUE);
         memes.add(memeDirectory+"/"+ uuid);
     }
     private void downloadFile(String downloadURL,String destinationURL){
