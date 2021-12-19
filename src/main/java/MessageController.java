@@ -43,7 +43,7 @@ public class MessageController extends ListenerAdapter {
     }
     void sendMeme(MessageReceivedEvent event){
         MessageChannel channel= event.getChannel();
-        String meme = new String(memeController.getRandomMeme());
+        String meme = memeController.getRandomMeme();
         channel.sendMessage("Here yo go, meme for you").addFile(new File(settingsData.getMemePath()+"/"+meme)).queue();
         System.out.println("Sending response");
     }
@@ -82,7 +82,7 @@ public class MessageController extends ListenerAdapter {
             e.printStackTrace();
             channel.sendMessage("Your meme could not be processed").queue();
         }
-        if(val<0.6){
+        if(val< settingsData.getNsfwThreshold()){
 
             channel.sendMessage("Meme accepted, thanks for contribution").queue();
             try {
