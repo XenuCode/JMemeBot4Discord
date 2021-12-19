@@ -3,14 +3,14 @@
 
 ### Simple and lightweight MemeBot for discord made completly in java !
 ### How to use
-Threre is no official windows support !
+Threre is no official windows and MacOS support !
 
 ####
 - Download `memebot.jar` into your final destination
 - Install the latest `java 8`
-#### Arch based distros: `sudo pacman -S jre8-openjdk`
-#### Ubuntu based distros: `sudo apt install openjdk-8-jre`
-#### Windows `install java 8 like a normie from oracle or something`
+    - Arch based distros: `sudo pacman -S jre8-openjdk`
+    - Ubuntu based distros: `sudo apt install openjdk-8-jre`
+    - Windows `install java 8 like a normie from oracle or something`
 
 #### Gather data
 - Get discord bot token
