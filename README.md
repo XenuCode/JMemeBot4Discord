@@ -1,12 +1,12 @@
 
 # JMemeBot4Discord
 
-### Simple and lightweight MemeBot for discord made completly in java !
+### Simple and lightweight MemeBot for discord made completly in Java !
 ### How to Deploy
 Threre is no official windows and MacOS support !
 
 ####
-- Download `memebot.jar` into your final destination
+- Download `JMemeBot4Discord.jar` into your final destination
 - Install the latest `java 8`
     - Arch based distros: `sudo pacman -S jre8-openjdk`
     - Ubuntu based distros: `sudo apt install openjdk-8-jre`
@@ -19,7 +19,7 @@ Threre is no official windows and MacOS support !
 - Fine tune sensitivity for NSFW content filtration using this api (values from 0.0 to 1.0)
 
 #### Enter gathered data into config file
-1. Create File named settings.txt in the same directory as `memebot.jar`
+1. Create File named settings.txt in the same directory as `JMemeBot4Discord.jar`
 2. Open file and input data in this order wihtout any spaces tabs in form shown below (do NOT write <some comment> inside of file)
 
 ``` aSJdaskdjak48Jii9aklsdAi.gdfg4A43.d-dskoASK458GNUIA84ha <this is bot token>
@@ -28,7 +28,7 @@ Threre is no official windows and MacOS support !
 238r3iu4h2hzsl84jifhuyg76rgdj4u6uz                      <this is NSFW classification api key > 
 ```
 
-3. Save file and run `memebot.jar` with `java -jar memebot.jar`
+3. Save file and run `JMemeBot4Discord.jar` with `java -jar JMemeBot4Discord.jar`
 
 ## How to Use
 
