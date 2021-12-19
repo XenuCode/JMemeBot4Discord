@@ -2,7 +2,7 @@
 # JMemeBot4Discord
 
 ### Simple and lightweight MemeBot for discord made completly in java !
-### How to use
+### How to Deploy
 Threre is no official windows and MacOS support !
 
 ####
@@ -22,7 +22,6 @@ Threre is no official windows and MacOS support !
 1. Create File named settings.txt in the same directory as `memebot.jar`
 2. Open file and input data in this order wihtout any spaces tabs in form shown below (do NOT write <some comment> inside of file)
 
-
 ``` aSJdaskdjak48Jii9aklsdAi.gdfg4A43.d-dskoASK458GNUIA84ha <this is bot token>
 /home/user/memebot/memes                                <this is memepath use / dashes for folder separation>
 0.65                                                    <this is NSFW content filtration value>
@@ -30,6 +29,12 @@ Threre is no official windows and MacOS support !
 ```
 
 3. Save file and run `memebot.jar` with `java -jar memebot.jar`
+
+## How to Use
+
+- `!meme` shows you random meme
+- `!addmeme` lets you add meme (you need to attach image or gif to it)
+- `!help` writes helpful information
 
 ## License
 
