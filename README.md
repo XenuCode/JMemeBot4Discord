@@ -2,6 +2,9 @@
 # JMemeBot4Discord
 
 ### Simple and lightweight MemeBot for discord made completely in Java !
+
+#### Simply add bot to your server by clicking [this link](https://discord.com/oauth2/authorize?client_id=918819630913568789&scope=bot&permissions=517544069184)
+
 ### How to Deploy
 There is no official windows and MacOS support !
 
